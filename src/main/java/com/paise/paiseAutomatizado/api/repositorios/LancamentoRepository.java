@@ -1,4 +1,4 @@
-package com.paise.paiseAutomatizado.repositorios;
+package com.paise.paiseAutomatizado.api.repositorios;
 
 import java.util.List;
 

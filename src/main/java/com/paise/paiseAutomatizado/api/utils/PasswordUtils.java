@@ -1,4 +1,4 @@
-package com.paise.paiseAutomatizado.utils;
+package com.paise.paiseAutomatizado.api.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

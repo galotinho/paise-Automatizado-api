@@ -1,4 +1,4 @@
-package com.paise.paiseAutomatizado.repositorios;
+package com.paise.paiseAutomatizado.api.repositorios;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
