@@ -1,4 +1,4 @@
-package com.paise.pontoInteligente.api;
+package com.paise.paiseAutomatizado.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
