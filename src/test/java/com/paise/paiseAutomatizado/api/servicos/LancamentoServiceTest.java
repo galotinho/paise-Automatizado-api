@@ -2,8 +2,6 @@ package com.paise.paiseAutomatizado.api.servicos;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -70,7 +68,7 @@ public class LancamentoServiceTest {
 	@Test
 	 public void testRemoverLancamentoPorId() {
 		this.lancamentoService.remover(1L);
-		verify(this.lancamentoRepository, times(1)).deleteById(1L);
+		Mockito.verify(this.lancamentoRepository, Mockito.times(1)).deleteById(1L);
 	 }
 
 }
