@@ -92,7 +92,12 @@
 		    <artifactId>jjwt</artifactId>
 		    <version>0.9.1</version>
 		</dependency>
-
+		<!-- Conversor Jackson para DTO do Java 8 -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.datatype</groupId>
+		    <artifactId>jackson-datatype-jdk8</artifactId>
+		    <version>2.9.9</version>
+		</dependency>
 		
 	</dependencies>
 
